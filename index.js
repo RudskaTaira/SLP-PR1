@@ -1,4 +1,8 @@
-function add(a, b) {
+/**
+ * @param {number} a
+ * @param {number} b
+ * @returns {number}
+ */function add(a, b) {
     return a + b;}
 function subtract(a, b) {
     return a - b;}
@@ -8,8 +12,19 @@ function divide(a, b) {
     if (b === 0) {
         return "Cannot divide by zero!";}
     return a / b;}
+/**
+ * @param {number} num
+ * @returns {boolean}
+ */
 function isEven(num) {
     return num % 2 === 0;}
+/**
+ * @param {string} name
+ * @returns {string}
+ */
+function sayHello(name) {
+    return "Hello, " + name;
+}
 function isOdd(num) {
     return num % 2 !== 0;}
 function factorial(n) {
